@@ -1,0 +1,29 @@
+import uuid
+from datetime import datetime
+from utils import (log_transaction,validate_input,format_cureency,get_timestamp,write_to_log,)
+from database import (get_account,update_balance,insert_transaction,get_transactions)
+
+
+
+class Account :
+
+    total_accounts_created = 0
+    MINIMUM_BALANCE = 1000
+
+def __init__(self,account_number,customer_id,account_type):
+    self.__account_number=account_number
+    self.__customer_id=customer_id
+    self.__account_type = account_type
+    self.__balance=0.0
+    self.__created-at = get_timestamp()
+    self.__is_active = True
+    Account.total_accounts_created+=1
+
+@property
+def account_number(self):
+    return self.__account_number
+
+@property
+def  balance(self):
+    return self.__balance
+

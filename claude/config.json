@@ -1,0 +1,17 @@
+{
+    "bank_name": "Stephen's Digital Bank",
+    "bank_code": "SDB001",
+    "version": "1.0",
+    "min_balance": 1000,
+    "max_withdrawal": 50000,
+    "interest_rate": {
+        "savings": 4.5,
+        "current": 0.0
+    },
+    "email": {
+        "smtp_server": "smtp.gmail.com",
+        "smtp_port": 587,
+        "sender_email": "a.mariastephendavidraj@gmail.com",
+        "sender_password": "tbzg hjba ipwi yhyu"
+    }
+}
